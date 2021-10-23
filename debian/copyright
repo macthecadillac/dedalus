@@ -1,0 +1,18 @@
+This package was debianized by Mac Lee <macthecadillac@gmail.com> on 2021-10-23
+
+It was downloaded from https://pypi.org/project/dedalus/
+
+Upstream Authors:
+
+    Keaton Burns
+    Geoff Vasil
+    Jeff Oishi
+    Daniel Lecoanet
+    Ben Brown
+
+Files: *
+Copyright: 2013-2014 Keaton J. Burns
+License: GPL-3
+ see /usr/share/common-licenses/GPL-3
+
+The Debian packaging is Copyright (C) 2021, Mac Lee <macthecadillac@gmail.com> and is licensed under the same terms as upstream code.

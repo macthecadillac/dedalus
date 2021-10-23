@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+#export DH_VERBOSE=1
+export PYBUILD_NAME=python3-dedalus
+export PYBUILD_DESTDIR_python3=debian/python3-dedalus/
+export DEB_PYTHON_INSTALL_ARGS_ALL+=--single-version-externally-managed
+
+export MPI_INCLUDE_PATH=/usr/include/${DEB_HOST_MULTIARCH}/openmpi
+export FFTW_INCLUDE_PATH=/usr/include
+export MPI_PATH=/usr/lib/${DEB_HOST_MULTIARCH}
+export FFTW_PATH=/usr/lib/${DEB_HOST_MULTIARCH}
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_configure override_dh_auto_clean:
+	rm -f dedalus/core/polynomials.c dedalus/core/transposes.c dedalus/libraries/fftw/fftw_wrappers.c 
+
+override_dh_auto_test:
+	echo "pass"
