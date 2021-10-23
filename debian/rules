@@ -4,6 +4,7 @@
 export DEB_BUILD_MAINT_OPTIONS=hardening=+bindnow
 export PYBUILD_NAME=python3-dedalus
 export PYBUILD_DESTDIR_python3=debian/python3-dedalus/
+export PYBUILD_EXTDESTDIR_python3=debian/python3-dedalus/
 export DEB_PYTHON_INSTALL_ARGS_ALL+=--single-version-externally-managed
 
 export MPI_INCLUDE_PATH=/usr/include/${DEB_HOST_MULTIARCH}/openmpi
