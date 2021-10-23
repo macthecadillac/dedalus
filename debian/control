@@ -26,7 +26,6 @@ Depends: ${python3:Depends},
          python3-matplotlib,
          python3-numpy,
          python3-scipy (>= 0.13.0),
-         python3-cpuinfo,
          libfftw3-3,
          libopenmpi3,
 Suggests: python-dedalus-doc
