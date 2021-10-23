@@ -21,16 +21,8 @@ Architecture: any
 Depends: ${python3:Depends},
          ${misc:Depends},
          ${shlibs:Depends},
-         python3-mpi4py (>= 2.0.0),
-         python3-h5py (>= 2.6.0),
-         python3-matplotlib,
-         python3-numpy,
-         python3-scipy (>= 0.13.0),
-         libfftw3-3,
-         libopenmpi3,
 Suggests: python-dedalus-doc,
           python3-dedalus-dbg,
-          python3-pytest,
 Description: Dedalus is a framework for solving partial differential equation
  Dedalus is a flexible framework for solving partial differential equations
  using spectral methods. The code is open-source and developed by a team of
