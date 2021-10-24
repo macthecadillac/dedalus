@@ -16,7 +16,7 @@ export FFTW_PATH=/usr/lib/${DEB_HOST_MULTIARCH}
 	dh $@ --with python3 --buildsystem=pybuild
 
 override_dh_auto_configure override_dh_auto_clean:
-	rm -f dedalus/core/polynomials.c dedalus/core/transposes.c dedalus/libraries/fftw/fftw_wrappers.c 
+	rm -f dedalus/core/polynomials.c dedalus/core/transposes.c dedalus/libraries/fftw/fftw_wrappers.c
 
 override_dh_auto_test:
 	echo "pass"
