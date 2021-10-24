@@ -143,7 +143,7 @@ extensions = [
         include_dirs=include_dirs,
         libraries=libraries,
         library_dirs=library_dirs,
-        runtime_library_dirs=library_dirs,
+        # runtime_library_dirs=library_dirs,
         extra_compile_args=extra_compile_args,
         extra_link_args=extra_link_args),
     Extension(
@@ -152,7 +152,7 @@ extensions = [
         include_dirs=include_dirs,
         libraries=libraries,
         library_dirs=library_dirs,
-        runtime_library_dirs=library_dirs,
+        # runtime_library_dirs=library_dirs,
         extra_compile_args=extra_compile_args,
         extra_link_args=extra_link_args),
     Extension(
@@ -161,7 +161,7 @@ extensions = [
         include_dirs=include_dirs,
         libraries=libraries,
         library_dirs=library_dirs,
-        runtime_library_dirs=library_dirs,
+        # runtime_library_dirs=library_dirs,
         extra_compile_args=extra_compile_args)]
 
 # Runtime requirements
