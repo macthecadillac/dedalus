@@ -1,0 +1,15 @@
+Bug-Database: https://github.com/DedalusProject/dedalus/issues
+Bug-Submit: https://github.com/DedalusProject/dedalus/issues/new
+Reference:
+ author: >
+      Burns, Keaton J and Vasil, Geoffrey M and Oishi, Jeffrey S and Lecoanet, Daniel and Brown, Benjamin P
+ title: "Dedalus: A flexible framework for numerical simulations with spectral methods"
+ journal: Physical Review Research
+ volume: 2
+ number: 2
+ pages: 023068
+ month: 4
+ year: 2020
+ URL: https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.023068
+Repository: https://github.com/DedalusProject/dedalus.git
+Repository-Browser: https://github.com/DedalusProject/dedalus
