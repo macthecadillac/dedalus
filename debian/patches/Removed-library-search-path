@@ -1,6 +1,6 @@
 Description: Remove custom library search paths
  Upstream put in custom library search paths in the cython extension
- specification which is unecessary in a Debian system.
+ specification which is unnecessary in a Debian system.
 Author: Mac Lee <macthecadillac@gmail.com>
 --- dedalus-2.2006.orig/setup.py
 +++ dedalus-2.2006/setup.py
