@@ -17,6 +17,7 @@ Build-Depends: debhelper-compat (= 13),
 Standards-Version: 4.5.1
 Vcs-Git: https://github.com/macthecadillac/dedalus.git
 Vcs-Browser: https://github.com/macthecadillac/dedalus
+Rules-Requires-Root: no
 
 Package: python3-dedalus
 Architecture: any
