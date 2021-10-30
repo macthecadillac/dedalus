@@ -1,7 +1,5 @@
 dedalus (2.2006-1) unstable; urgency=low
 
   * Initial release. Closes: #997798
-  * This is my first Debian package
-  * Adjusted setup.py to remove custom library search paths
 
  -- Mac Lee <macthecadillac@gmail.com>  Fri, 22 Oct 2021 16:48:10 -0700
